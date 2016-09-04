@@ -1,19 +1,22 @@
 default: &default
   adapter: postgresql
+  host: localhost
   pool: 5
   timeout: 5000
   template: template0
+  username: user
+
 
 development:
   <<: *default
-  database: lotd_dev
+  database: app-dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: lotd_test
+  database: app-test
 
 production:
   <<: *default
