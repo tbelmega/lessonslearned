@@ -13,3 +13,80 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 20px;
+    padding: 20px 20px 80px;
+    border: thin solid #666666;
+    border-radius: 25px;
+    line-height: 1.45;
+}
+
+h1 {
+    font-family: "Trajan", "Trebuchet", "Palatino", serif;
+    font-size: 3.5em;
+    color: #666;
+}
+
+h2 {
+    font-family: "Trajan", "Trebuchet", "Palatino", serif;
+    font-size: 2em;
+    color: #666;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.primary-button {
+    font-size: large;
+    background-color: #47476b;
+    color: #cccccc
+}
+
+.primary-button:hover {
+    color: #47476b;
+    background-color: #cccccc;
+}
+
+.secondary-button {
+    color: #47476b;
+    background-color: #cccccc;
+}
+
+.secondary-button:hover {
+    background-color: #47476b;
+    color: #cccccc
+}
+
+table {
+    margin-top: 40px;
+}
+
+td {
+    padding: 5px;
+}
+
+#text-column {
+    width: 50%;
+}
+
+#title-column {
+    width: 25%;
+}
+
+input[type=text] {
+    width: 60%;
+}
+
+textarea {
+    width: 60%;
+    min-height: 100px;
+}
+
+.main-content {
+    margin-bottom: 40px;
+}
