@@ -43,13 +43,16 @@ a {
 
 .primary-button {
     font-size: large;
+    color: #cccccc;
     background-color: #47476b;
-    color: #cccccc
+    box-shadow: 5px 5px 2px #808080;
+    transition: .5s;
 }
 
 .primary-button:hover {
-    color: #47476b;
-    background-color: #cccccc;
+    color: #cccccc;
+    background-color: #505080;
+    box-shadow: 5px 5px 2px #A0A0A0;
 }
 
 .secondary-button {
@@ -80,11 +83,13 @@ td {
 
 input[type=text] {
     width: 60%;
+    font-family: "Times New Roman", Times, Serif, serif;
 }
 
 textarea {
     width: 60%;
     min-height: 100px;
+    font-family: "Times New Roman", Times, Serif, serif;
 }
 
 .main-content {
