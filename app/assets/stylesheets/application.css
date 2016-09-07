@@ -112,3 +112,7 @@ textarea {
     min-height: 100px;
     font-family: "Times New Roman", Times, Serif, serif;
 }
+
+.error-explanation {
+    color: #d44d5c;
+}
