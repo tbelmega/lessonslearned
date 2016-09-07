@@ -12,57 +12,78 @@
  *
  *= require_tree .
  *= require_self
+ *
  */
 
+* {
+
+    /*    -my-darkred: #773344;
+     *    -my-lightred: #e3b5a4;
+     *    -my-white: #f5e9e2;
+     *    -my-black: #0b0014;
+     *    -my-red: #d44d5c;
+     */
+
+}
+
 body {
+    background-color: #773344;
     font-family: helvetica, arial, sans-serif;
+    line-height: 1.45;
+}
+
+.main-content {
+    color: #0b0014;
+    background-color: #f5e9e2;
     margin: 20px;
     padding: 20px 20px 80px;
-    border: thin solid #666666;
+    border: thin solid #773344;
     border-radius: 25px;
-    line-height: 1.45;
 }
 
 h1 {
     font-family: "Trajan", "Trebuchet", "Palatino", serif;
     font-size: 3.5em;
-    color: #666;
+    color: #773344;
 }
 
 h2 {
     font-family: "Trajan", "Trebuchet", "Palatino", serif;
     font-size: 2em;
-    color: #666;
+    color: #773344;
 }
 
 a {
     padding: 5px;
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid;
 }
 
 .primary-button {
     font-size: large;
-    color: #cccccc;
-    background-color: #47476b;
-    box-shadow: 5px 5px 2px #808080;
+    color: #773344;
+    background-color: #f5e9e2;
+    border-color: #773344;
+    box-shadow: 5px 5px 2px #e3b5a4;
     transition: .5s;
 }
 
 .primary-button:hover {
-    color: #cccccc;
-    background-color: #505080;
-    box-shadow: 5px 5px 2px #A0A0A0;
+    color: #f5e9e2;
+    background-color: #773344;
 }
 
 .secondary-button {
-    color: #47476b;
-    background-color: #cccccc;
+    color: #773344;
+    background-color: #f5e9e2;
+    box-shadow: 5px 5px 2px #e3b5a4;
+    transition: .5s;
 }
 
 .secondary-button:hover {
-    background-color: #47476b;
-    color: #cccccc
+    color: #f5e9e2;
+    background-color: #773344;
 }
 
 table {
@@ -90,8 +111,4 @@ textarea {
     width: 60%;
     min-height: 100px;
     font-family: "Times New Roman", Times, Serif, serif;
-}
-
-.main-content {
-    margin-bottom: 40px;
 }
